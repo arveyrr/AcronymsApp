@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  AcronymsApp
 //
-//  Created by ControlBox Mac2 on 10/9/21.
+//  Created by Arvey Rodríguez on 10/9/21.
 //
 
 import UIKit

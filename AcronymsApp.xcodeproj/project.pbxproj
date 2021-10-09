@@ -7,27 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09090517C85404ED71B6CB40 /* libPods-AcronymsApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF908BBB0B9028DB3CBD8DC /* libPods-AcronymsApp.a */; };
 		7D29378A2711D6A5004F7FDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2937892711D6A5004F7FDF /* AppDelegate.swift */; };
 		7D29378C2711D6A5004F7FDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29378B2711D6A5004F7FDF /* SceneDelegate.swift */; };
-		7D29378E2711D6A5004F7FDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29378D2711D6A5004F7FDF /* ContentView.swift */; };
+		7D29378E2711D6A5004F7FDF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29378D2711D6A5004F7FDF /* HomeView.swift */; };
 		7D2937902711D6AA004F7FDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D29378F2711D6AA004F7FDF /* Assets.xcassets */; };
 		7D2937932711D6AA004F7FDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D2937922711D6AA004F7FDF /* Preview Assets.xcassets */; };
 		7D2937962711D6AA004F7FDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2937942711D6AA004F7FDF /* LaunchScreen.storyboard */; };
+		7D2937A42711D74B004F7FDF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2937A32711D74B004F7FDF /* DetailView.swift */; };
+		7D2937A82711D863004F7FDF /* AcronymDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2937A72711D863004F7FDF /* AcronymDetail.swift */; };
+		7D2937AB2711D933004F7FDF /* APIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2937AA2711D933004F7FDF /* APIConnection.swift */; };
+		7D2937B12711DED4004F7FDF /* Acronym.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2937B02711DED4004F7FDF /* Acronym.swift */; };
+		7D2937B72711EE13004F7FDF /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2937B62711EE13004F7FDF /* SearchBar.swift */; };
+		7D2937BA271206D9004F7FDF /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2937B9271206D9004F7FDF /* RowView.swift */; };
+		7D2937C127121517004F7FDF /* AcronymVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2937C027121517004F7FDF /* AcronymVar.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7DBB60DD27123C5E00039D1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D29377E2711D6A5004F7FDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D2937852711D6A5004F7FDF;
+			remoteInfo = AcronymsApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0AD71565876CFF7F42D7BC35 /* Pods-AcronymsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcronymsApp.debug.xcconfig"; path = "Target Support Files/Pods-AcronymsApp/Pods-AcronymsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6D6B26776A76F67E3AC523AA /* Pods-AcronymsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcronymsApp.release.xcconfig"; path = "Target Support Files/Pods-AcronymsApp/Pods-AcronymsApp.release.xcconfig"; sourceTree = "<group>"; };
+		7CF908BBB0B9028DB3CBD8DC /* libPods-AcronymsApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AcronymsApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2937862711D6A5004F7FDF /* AcronymsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcronymsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2937892711D6A5004F7FDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D29378B2711D6A5004F7FDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7D29378D2711D6A5004F7FDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D29378D2711D6A5004F7FDF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7D29378F2711D6AA004F7FDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D2937922711D6AA004F7FDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7D2937952711D6AA004F7FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D2937972711D6AA004F7FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D2937A32711D74B004F7FDF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		7D2937A72711D863004F7FDF /* AcronymDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcronymDetail.swift; sourceTree = "<group>"; };
+		7D2937AA2711D933004F7FDF /* APIConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConnection.swift; sourceTree = "<group>"; };
+		7D2937B02711DED4004F7FDF /* Acronym.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acronym.swift; sourceTree = "<group>"; };
+		7D2937B62711EE13004F7FDF /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		7D2937B9271206D9004F7FDF /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		7D2937C027121517004F7FDF /* AcronymVar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcronymVar.swift; sourceTree = "<group>"; };
+		7DBB60D827123C5E00039D1A /* AcronymsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcronymsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7D2937832711D6A5004F7FDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09090517C85404ED71B6CB40 /* libPods-AcronymsApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DBB60D527123C5E00039D1A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +79,8 @@
 			children = (
 				7D2937882711D6A5004F7FDF /* AcronymsApp */,
 				7D2937872711D6A5004F7FDF /* Products */,
+				B5C8E92A83FB18311EAB0D1B /* Pods */,
+				9E9E1DD92F6AC28BDB47F09B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				7D2937862711D6A5004F7FDF /* AcronymsApp.app */,
+				7DBB60D827123C5E00039D1A /* AcronymsAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,9 +96,11 @@
 		7D2937882711D6A5004F7FDF /* AcronymsApp */ = {
 			isa = PBXGroup;
 			children = (
+				7D2937A02711D6C5004F7FDF /* Views */,
+				7D29379F2711D6BD004F7FDF /* Models */,
+				7D29379E2711D6B6004F7FDF /* ModelViews */,
 				7D2937892711D6A5004F7FDF /* AppDelegate.swift */,
 				7D29378B2711D6A5004F7FDF /* SceneDelegate.swift */,
-				7D29378D2711D6A5004F7FDF /* ContentView.swift */,
 				7D29378F2711D6AA004F7FDF /* Assets.xcassets */,
 				7D2937942711D6AA004F7FDF /* LaunchScreen.storyboard */,
 				7D2937972711D6AA004F7FDF /* Info.plist */,
@@ -75,6 +117,60 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		7D29379E2711D6B6004F7FDF /* ModelViews */ = {
+			isa = PBXGroup;
+			children = (
+				7D2937AA2711D933004F7FDF /* APIConnection.swift */,
+			);
+			path = ModelViews;
+			sourceTree = "<group>";
+		};
+		7D29379F2711D6BD004F7FDF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7D2937B02711DED4004F7FDF /* Acronym.swift */,
+				7D2937A72711D863004F7FDF /* AcronymDetail.swift */,
+				7D2937C027121517004F7FDF /* AcronymVar.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7D2937A02711D6C5004F7FDF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7D29378D2711D6A5004F7FDF /* HomeView.swift */,
+				7D2937B9271206D9004F7FDF /* RowView.swift */,
+				7D2937A32711D74B004F7FDF /* DetailView.swift */,
+				7D9663E327122AED0084B949 /* Helpers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7D9663E327122AED0084B949 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7D2937B62711EE13004F7FDF /* SearchBar.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9E9E1DD92F6AC28BDB47F09B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CF908BBB0B9028DB3CBD8DC /* libPods-AcronymsApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5C8E92A83FB18311EAB0D1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AD71565876CFF7F42D7BC35 /* Pods-AcronymsApp.debug.xcconfig */,
+				6D6B26776A76F67E3AC523AA /* Pods-AcronymsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D29379A2711D6AA004F7FDF /* Build configuration list for PBXNativeTarget "AcronymsApp" */;
 			buildPhases = (
+				F92172B25A5EBEC45888FCF0 /* [CP] Check Pods Manifest.lock */,
 				7D2937822711D6A5004F7FDF /* Sources */,
 				7D2937832711D6A5004F7FDF /* Frameworks */,
 				7D2937842711D6A5004F7FDF /* Resources */,
@@ -95,6 +192,24 @@
 			productReference = 7D2937862711D6A5004F7FDF /* AcronymsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7DBB60D727123C5E00039D1A /* AcronymsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DBB60E127123C5E00039D1A /* Build configuration list for PBXNativeTarget "AcronymsAppTests" */;
+			buildPhases = (
+				7DBB60D427123C5E00039D1A /* Sources */,
+				7DBB60D527123C5E00039D1A /* Frameworks */,
+				7DBB60D627123C5E00039D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DBB60DE27123C5E00039D1A /* PBXTargetDependency */,
+			);
+			name = AcronymsAppTests;
+			productName = AcronymsAppTests;
+			productReference = 7DBB60D827123C5E00039D1A /* AcronymsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -106,6 +221,10 @@
 				TargetAttributes = {
 					7D2937852711D6A5004F7FDF = {
 						CreatedOnToolsVersion = 12.1;
+					};
+					7DBB60D727123C5E00039D1A = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 7D2937852711D6A5004F7FDF;
 					};
 				};
 			};
@@ -123,6 +242,7 @@
 			projectRoot = "";
 			targets = (
 				7D2937852711D6A5004F7FDF /* AcronymsApp */,
+				7DBB60D727123C5E00039D1A /* AcronymsAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +258,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7DBB60D627123C5E00039D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F92172B25A5EBEC45888FCF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AcronymsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D2937822711D6A5004F7FDF /* Sources */ = {
@@ -146,12 +298,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D29378A2711D6A5004F7FDF /* AppDelegate.swift in Sources */,
+				7D2937AB2711D933004F7FDF /* APIConnection.swift in Sources */,
+				7D2937A82711D863004F7FDF /* AcronymDetail.swift in Sources */,
+				7D2937A42711D74B004F7FDF /* DetailView.swift in Sources */,
+				7D2937BA271206D9004F7FDF /* RowView.swift in Sources */,
 				7D29378C2711D6A5004F7FDF /* SceneDelegate.swift in Sources */,
-				7D29378E2711D6A5004F7FDF /* ContentView.swift in Sources */,
+				7D2937B72711EE13004F7FDF /* SearchBar.swift in Sources */,
+				7D2937B12711DED4004F7FDF /* Acronym.swift in Sources */,
+				7D29378E2711D6A5004F7FDF /* HomeView.swift in Sources */,
+				7D2937C127121517004F7FDF /* AcronymVar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DBB60D427123C5E00039D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DBB60DE27123C5E00039D1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D2937852711D6A5004F7FDF /* AcronymsApp */;
+			targetProxy = 7DBB60DD27123C5E00039D1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7D2937942711D6AA004F7FDF /* LaunchScreen.storyboard */ = {
@@ -283,6 +457,7 @@
 		};
 		7D29379B2711D6AA004F7FDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD71565876CFF7F42D7BC35 /* Pods-AcronymsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +465,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AcronymsApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AcronymsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +479,7 @@
 		};
 		7D29379C2711D6AA004F7FDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D6B26776A76F67E3AC523AA /* Pods-AcronymsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +487,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AcronymsApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AcronymsApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,6 +496,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7DBB60DF27123C5E00039D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AcronymsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rodriguez.arvey.AcronymsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcronymsApp.app/AcronymsApp";
+			};
+			name = Debug;
+		};
+		7DBB60E027123C5E00039D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AcronymsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = rodriguez.arvey.AcronymsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AcronymsApp.app/AcronymsApp";
 			};
 			name = Release;
 		};
@@ -338,6 +554,15 @@
 			buildConfigurations = (
 				7D29379B2711D6AA004F7FDF /* Debug */,
 				7D29379C2711D6AA004F7FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DBB60E127123C5E00039D1A /* Build configuration list for PBXNativeTarget "AcronymsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DBB60DF27123C5E00039D1A /* Debug */,
+				7DBB60E027123C5E00039D1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
